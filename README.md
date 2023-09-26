@@ -1,2 +1,1 @@
-# Python-Practice
-  
+Learning and practicing Python
