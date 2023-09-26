@@ -1,1 +1,1 @@
-Learning and practicing Python
+Learning and practicing beginner programming concepts using Python
