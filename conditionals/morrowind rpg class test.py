@@ -19,7 +19,7 @@ try:
         combat += 1
     if user_input == 2:
         magic += 1
-    if user_input == 3:
+    if user_input == 3:  
         stealth += 1
 
 
