@@ -1,4 +1,4 @@
-# shortens names into 3 letters - the first, middle, and last letters
+# shorten string into 3 characters - the first, middle, and last characters
 
 userinput = input("> ")
 
