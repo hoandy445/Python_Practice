@@ -10,15 +10,15 @@ append_middle("Ault", "Kelly")
 
 # print lower then upper
 
-str1 = "PyNaTive"
 
-for i in str1:
-    if i.islower():
-        print(i, end="")
-    else:
-        continue
+def upperlower(str1):
+    for i in str1:
+        if i.islower():
+            print(i, end="")
 
-for j in str1:
-    if j.isupper():
-        print(j, end="")
+    for j in str1:
+        if j.isupper():
+            print(j, end="")
+
+upperlower("PyNaTive")
 
