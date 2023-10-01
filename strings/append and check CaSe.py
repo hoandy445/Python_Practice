@@ -11,7 +11,7 @@ append_middle("Ault", "Kelly")
 # print lower then upper
 
 
-def upperlower(str1):
+def lowerupper(str1):
     for i in str1:
         if i.islower():
             print(i, end="")
@@ -20,5 +20,5 @@ def upperlower(str1):
         if j.isupper():
             print(j, end="")
 
-upperlower("PyNaTive")
+lowerupper("hElLo woRLd")
 
