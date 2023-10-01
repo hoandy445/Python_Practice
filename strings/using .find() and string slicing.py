@@ -11,7 +11,7 @@ print(findwebsitename("https://www.youtube.com/watch?v=mSDmr86MdHw"))
 
 text = "X-DSPAM-Confidence:    0.8475"
 
-findtext = text.find(" ")
-findtext = text[findtext:]
+findtext = text.find(":")
+findtext = text[findtext + 1:]
 findtext = float(findtext)
 print(findtext)
