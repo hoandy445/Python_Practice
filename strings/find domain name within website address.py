@@ -28,5 +28,5 @@ def findweb(website):
         webname = website[pos1: pos2]
         return(webname)
         
-print(findweb(web3))
+print(findweb(web1))
 
