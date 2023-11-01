@@ -17,7 +17,7 @@ for line in fhand:
 
 # print(len(oldlist[0])) # output is 8. there are 8 words in the first list at index zero
 
-# oldlist = oldlist[0] + oldlist[1] + oldlist[2] + oldlist[3] # creates one single list with all the words, now all words in list can be iterated through
+oldlist = oldlist[0] + oldlist[1] + oldlist[2] + oldlist[3] # creates one single list with all the words, now all words in list can be iterated through
 
 
 for check in oldlist:
