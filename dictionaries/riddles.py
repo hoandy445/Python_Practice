@@ -8,10 +8,10 @@ riddles[Q2] = "candle"
 riddles[Q3] = "all of them"
 
 import random
-rlist = list(riddles.keys())
-random.shuffle(rlist)
+keys = list(riddles.keys())
+random.shuffle(keys)
 
-for i in rlist:
+for i in keys:
     print(i)
     useranswer = input("> ")
     if useranswer == riddles[i]:
