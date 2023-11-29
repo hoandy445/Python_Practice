@@ -30,15 +30,30 @@
 # print(dict1)
 
 #find value in nested keys
-sampleDict = {
-    "class": {
-        "student": {
-            "name": "Mike",
-            "marks": {
-                "physics": 70,
-                "history": 80
-            }
-        }
-    }
+# sampleDict = {
+#     "class": {
+#         "student": {
+#             "name": "Mike",
+#             "marks": {
+#                 "physics": 70,
+#                 "history": 80
+#             }
+#         }
+#     }
+# }
+# print(sampleDict["class"]["student"]["marks"]["history"])
+
+#remove list of keys from dictionary
+sample_dict = {
+    "name": "Kelly",
+    "age": 25,
+    "salary": 8000,
+    "city": "New york"
 }
-print(sampleDict["class"]["student"]["marks"]["history"])
+
+# Keys to remove
+keys = ["name", "salary"]
+
+for k in keys:
+    sample_dict.pop(k)
+print(sample_dict)
