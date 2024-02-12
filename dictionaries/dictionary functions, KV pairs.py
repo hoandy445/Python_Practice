@@ -9,8 +9,8 @@ items = {"20/up Santolla King Crab Legs" : "Item#: 17620656",
 # for key in items:
 #     print(key)
 
-# for value in items:
-#     print(items[value])
+for value in items:
+    print(items[value])
 
 # print(items.get("20/up Santolla King Crab Legs")) #get value by inputting key
 # if items.get("chicken breast"): #if the item is not in the dictionary, returns None
